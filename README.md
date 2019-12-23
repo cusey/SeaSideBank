@@ -35,7 +35,7 @@ Run `npm run start` for a web server. Navigate to `http://localhost:4200/sign_in
 
 ### Database Server
 
-Run 'node server.js' to start the database server. Navigate to 'http://localhost:4000/api/get_accounts' to get a JSON list of account information.     
+Change diectories 'cd src/db' the run 'node server.js' to start the database server. Navigate to 'http://localhost:4000/api/get_accounts' to get a JSON list of account information.     
 
 ## Code scaffolding
 
