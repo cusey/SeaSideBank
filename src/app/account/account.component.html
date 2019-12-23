@@ -1,0 +1,31 @@
+<app-navigation></app-navigation>
+
+<div id="main">
+
+    <h4>Events</h4>
+    <hr>
+
+    <table datatable class="row-border hover" *ngIf="events">
+      <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Amount</th>
+            <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let account of accounts">
+            <td>{{account.id}}</td>
+            <td>{{event.name}}</td>
+            <td>{{event.description}}</td>
+            <td>{{event.amount}}</td>
+            <td>{{event.status}}</td>
+  
+            
+        </tr>
+      </tbody>
+    </table>
+</div>
+

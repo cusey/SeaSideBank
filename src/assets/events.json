@@ -1,0 +1,27 @@
+[{
+      "id": 1,
+      "name": "2008 HURRICANE GUSTAV",
+      "description": "HURRICANE GUSTAV",
+      "created_at": null,
+      "updated_at": "2015-10-09T12:38:50.000Z",
+      "fema_declaration": "1786",
+      "status": "I"
+},
+{
+      "id": 5,
+      "name": "2008 HURRICANE IKE",
+      "description": "MULITPLE EMERGENCY AND DISASTER DECLARATIONS",
+      "created_at": "2011-03-08T17:18:00.000Z",
+      "updated_at": "2015-10-09T12:42:08.000Z",
+      "fema_declaration": "0",
+      "status": "I"
+},
+{
+      "id": 7,
+      "name": "2008 HURRICANE OMAR",
+      "description": "",
+      "created_at": "2011-03-08T17:19:00.000Z",
+      "updated_at": "2015-10-09T12:41:19.000Z",
+      "fema_declaration": "0",
+      "status": "I"
+}]
