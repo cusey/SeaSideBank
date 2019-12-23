@@ -15,7 +15,7 @@ export class AccountComponent implements OnInit {
   constructor( private httpService: HttpClient) { }
 
   ngOnInit() {
-    this.url = '/api/get_account';
+    this.url = '/api/get_accounts';
 
     this.httpService.get(this.url).subscribe( data => {
         this.accounts = data;
